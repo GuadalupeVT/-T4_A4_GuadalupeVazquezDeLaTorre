@@ -323,6 +323,16 @@ class GrafoAdcia{
    }
     
 } //Clase GrafoAdcia
+
+class NodoPila{
+	Object elemento;
+    NodoPila siguiente;
+    NodoPila(Object x){
+    	elemento = x;
+        siguiente = null;
+    }
+} //Class NodoPila
+
 public class PruebaGrafos {
 
 	public static void main(String[] args) {
