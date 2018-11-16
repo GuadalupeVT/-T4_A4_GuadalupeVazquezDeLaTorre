@@ -170,6 +170,33 @@ class GrafoMatriz{
         return m;
         }   */
 } //Class GrafoMatriz
+
+class Nodo {
+	Object elemento;
+	Nodo siguiente;
+	public Nodo(Object x){
+		elemento = x;
+		siguiente = null;
+		}
+	int dato;
+	public Nodo(int x){
+		dato = x;
+	    siguiente = null;
+	}
+	public Nodo(int x, Nodo n){
+	    dato = x;
+	    siguiente = n;
+	}
+	public int getDato(){
+	    return dato;
+	}
+	public Nodo getEnlace(){
+	    return siguiente;
+	}
+	public void setEnlace(Nodo enlace){
+	    this.siguiente = enlace;
+	}
+}//Class nodo
 public class PruebaGrafos {
 
 	public static void main(String[] args) {
