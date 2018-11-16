@@ -351,7 +351,24 @@ class ListaIterador{
 		actual = prm;
 		}
 }//Clas ListaIterador */
-   
+/*
+class Lista{
+	private Nodo primero;
+	public Lista(){
+		primero = null;
+	}
+	public Lista crearLista() {
+		int x;
+	    primero = null;
+	    do {
+	    	x = leerEntero();
+	    	if (x != -1){
+	    		primero = new Nodo(x,primero);
+	        }
+	    }while (x != -1);
+	    	return this;
+	    	}
+}//Class Lista */
 public class PruebaGrafos {
 
 	public static void main(String[] args) {
